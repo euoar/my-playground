@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.4.1](https://github.com/euoar/my-playground/compare/v1.4.0...v1.4.1) (2025-10-19)
+
+
+### Bug Fixes
+
+* horizontal scroll ([802b358](https://github.com/euoar/my-playground/commit/802b358c0d360fd983026f9a126528203582db7c))
+
+# [1.4.0](https://github.com/euoar/my-playground/compare/v1.3.0...v1.4.0) (2025-10-19)
+
+
+### Features
+
+* add name for test workflow ([a0a18c2](https://github.com/euoar/my-playground/commit/a0a18c2f32dbd312ffdcc06ea2c39f9b9dad11cc))
+
+# [1.3.0](https://github.com/euoar/my-playground/compare/v1.2.0...v1.3.0) (2025-10-19)
+
+
+### Features
+
+* add  comment ([302a6f5](https://github.com/euoar/my-playground/commit/302a6f5b3753a8a55b0997b7e9018c1caaee990a))
+* set no referreer to fix cors issues ([f86f091](https://github.com/euoar/my-playground/commit/f86f0916cc1fe6ee8bced8517c0af968fea23896))
+* use https for images ([a980286](https://github.com/euoar/my-playground/commit/a980286e032da579055dfb0dd02aa7de2a53868c))
+
 # [1.2.0](https://github.com/euoar/my-playground/compare/v1.1.1...v1.2.0) (2025-10-19)
 
 
