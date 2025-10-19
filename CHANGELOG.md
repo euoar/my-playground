@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.1.1](https://github.com/euoar/my-playground/compare/v1.1.0...v1.1.1) (2025-10-19)
+
+
+### Bug Fixes
+
+* fix release workflow ([4afa1a1](https://github.com/euoar/my-playground/commit/4afa1a11664798585bda9c620719b3b5d4258d38))
+
 # [1.1.0](https://github.com/euoar/my-playground/compare/v1.0.0...v1.1.0) (2025-10-19)
 
 
