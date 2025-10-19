@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 
+# 1.0.0 (2025-10-19)
+
+
+### Features
+
+* initial commit ([93a49a6](https://github.com/euoar/my-playground/commit/93a49a62598a28073521a71cfafbc28c9ad2224f))
+
 ## [1.0.1](https://github.com/alfonsorc-dev/marvel-heroes/compare/v1.0.0...v1.0.1) (2025-10-17)
 
 
