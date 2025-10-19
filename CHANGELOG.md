@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 
+# [1.1.0](https://github.com/euoar/my-playground/compare/v1.0.0...v1.1.0) (2025-10-19)
+
+
+### Features
+
+* vercel deploy workflow ([97cf743](https://github.com/euoar/my-playground/commit/97cf74374b996fb0f398629bba02c04164b76dc3))
+
 # 1.0.0 (2025-10-19)
 
 
