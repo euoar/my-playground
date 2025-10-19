@@ -13,13 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Download build artifact
       - uses: actions/download-artifact@v4
         with:
           name: dist
           path: dist/
 
-      # Deploy to Vercel
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v20
         with:

@@ -18,11 +18,9 @@ jobs:
 
       - run: npm ci
 
-      # Inject Marvel key for Vite build
-      - run: echo "VITE_MARVEL_API_KEY=${{ secrets.VITE_MARVEL_API_KEY }}" >> .env
+      - run: npm run build
 
-      - run: npm run build # generates dist/
-
+      # Upload dist/ artifact for deploy workflow
       - uses: actions/upload-artifact@v4
         with:
           name: dist
@@ -48,6 +46,7 @@ jobs:
           name: dist
           path: dist/
 
+      # Semantic-release handles versioning and GitHub release
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

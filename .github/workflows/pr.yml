@@ -1,13 +1,13 @@
-name: PR Build
+name: PR Test
 
 on:
   pull_request:
     branches:
+      
       - main
 
 jobs:
-  build:
-    name: Build Project on PR
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,4 +17,4 @@ jobs:
           node-version: 22
 
       - run: npm ci
-      - run: npm run build
+      - run: npm test
