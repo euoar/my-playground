@@ -10,6 +10,7 @@ export type CharacterCardProps = {
   onFavoriteToggle?: () => void;
 };
 
+// Component to display a Marvel character card
 export const CharacterCard = ({
   name,
   thumbnail,
