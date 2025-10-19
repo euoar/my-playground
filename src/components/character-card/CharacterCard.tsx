@@ -27,6 +27,7 @@ export const CharacterCard = ({
         sizes={`(max-width: 1024px) var(--card-image-width), var(--card-image-width-desktop)`}
         src={`${thumbnail.path}/${ImageFormat.CARD_IMAGE_STANDARD}.${thumbnail.extension}`}
         alt={name}
+        referrerPolicy="no-referrer"
       />
       <div className="ruler"></div>
       <div className="character-card__info">
@@ -35,6 +36,7 @@ export const CharacterCard = ({
           <img
             src={isFavorite ? filledHeart : outlinedHeart}
             alt={isFavorite ? "Filled Heart Icon" : "Outlined Heart icon"}
+            referrerPolicy="no-referrer"
           />
         </button>
       </div>
