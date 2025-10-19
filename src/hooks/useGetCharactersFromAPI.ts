@@ -6,6 +6,7 @@ interface UseMarvelCharactersOptions {
   nameStartsWith?: string;
 }
 
+// Custom hook to fetch Marvel characters from the API
 export const useGetCharactersFromAPI = (
   { limit, nameStartsWith }: UseMarvelCharactersOptions,
   queryOptions?: Omit<
