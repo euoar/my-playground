@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 
 
+# [1.2.0](https://github.com/euoar/my-playground/compare/v1.1.1...v1.2.0) (2025-10-19)
+
+
+### Features
+
+* redeploy ([4c5a6c0](https://github.com/euoar/my-playground/commit/4c5a6c04fffc96b7803e3614c29caa24f65d6c0f))
+* simplify workflows ([d4bc3b6](https://github.com/euoar/my-playground/commit/d4bc3b6ce85801fda13c1e48bb38e1d64dacbfdb))
+
 ## [1.1.1](https://github.com/euoar/my-playground/compare/v1.1.0...v1.1.1) (2025-10-19)
 
 
