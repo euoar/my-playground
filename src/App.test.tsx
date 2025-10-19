@@ -2,7 +2,7 @@ import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, it, expect, afterEach } from "vitest";
 import App from "./App";
-
+// Tests for App component navigation
 describe("App", () => {
   afterEach(cleanup);
 
