@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.4.1](https://github.com/euoar/my-playground/compare/v1.4.0...v1.4.1) (2025-10-19)
+
+
+### Bug Fixes
+
+* horizontal scroll ([802b358](https://github.com/euoar/my-playground/commit/802b358c0d360fd983026f9a126528203582db7c))
+
 # [1.4.0](https://github.com/euoar/my-playground/compare/v1.3.0...v1.4.0) (2025-10-19)
 
 
