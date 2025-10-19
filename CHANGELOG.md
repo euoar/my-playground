@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 
+# [1.4.0](https://github.com/euoar/my-playground/compare/v1.3.0...v1.4.0) (2025-10-19)
+
+
+### Features
+
+* add name for test workflow ([a0a18c2](https://github.com/euoar/my-playground/commit/a0a18c2f32dbd312ffdcc06ea2c39f9b9dad11cc))
+
 # [1.3.0](https://github.com/euoar/my-playground/compare/v1.2.0...v1.3.0) (2025-10-19)
 
 
