@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 
 
+# [1.6.0](https://github.com/euoar/my-playground/compare/v1.5.0...v1.6.0) (2025-10-20)
+
+
+### Features
+
+* bump ([215f4c4](https://github.com/euoar/my-playground/commit/215f4c4ab0f82503d7ec02a7404892183393e448))
+* prefer offline ([0db8f99](https://github.com/euoar/my-playground/commit/0db8f99b20fc57e0d3e147e41a36064e2e033981))
+
 # [1.5.0](https://github.com/euoar/my-playground/compare/v1.4.1...v1.5.0) (2025-10-20)
 
 
