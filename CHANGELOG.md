@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 
 
+# [1.5.0](https://github.com/euoar/my-playground/compare/v1.4.1...v1.5.0) (2025-10-20)
+
+
+### Features
+
+* add test retry ([7e697f6](https://github.com/euoar/my-playground/commit/7e697f6f331d99838a4dab7f2ba9a2e1ef85553b))
+* another bump ([1b679d7](https://github.com/euoar/my-playground/commit/1b679d70506e188c729bc64da3717dfad887e304))
+* bumping ([95ff17f](https://github.com/euoar/my-playground/commit/95ff17fb153a8987df31312511c3e77c4166d79e))
+* update job name ([c221b68](https://github.com/euoar/my-playground/commit/c221b683cce0684a0819424bf2baaa1ad92f2606))
+* update types ([b175568](https://github.com/euoar/my-playground/commit/b175568039bf4ea3a1c23fd1ba6b524d0dfb933e))
+
 ## [1.4.1](https://github.com/euoar/my-playground/compare/v1.4.0...v1.4.1) (2025-10-19)
 
 
