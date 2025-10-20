@@ -10,17 +10,32 @@ jobs:
     name: Build Project
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Checkout repository
       - uses: actions/checkout@v4
 
+      # 2️⃣ Setup Node
       - uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - run: npm ci
+      # 3️⃣ Cache npm dependencies
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
-      - run: npm run build
+      # 4️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm ci --prefer-offline
 
-      # Upload dist/ artifact for deploy workflow
+      # 5️⃣ Build project
+      - name: Build
+        run: npm run build
+
+      # 6️⃣ Upload dist/ artifact for deploy workflow
       - uses: actions/upload-artifact@v4
         with:
           name: dist
@@ -33,20 +48,35 @@ jobs:
     permissions:
       contents: write
     steps:
+      # 1️⃣ Checkout repository
       - uses: actions/checkout@v4
 
+      # 2️⃣ Setup Node
       - uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - run: npm ci
+      # 3️⃣ Cache npm dependencies
+      - name: Cache npm
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
+      # 4️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm ci --prefer-offline
+
+      # 5️⃣ Download built artifact
       - uses: actions/download-artifact@v4
         with:
           name: dist
           path: dist/
 
-      # Semantic-release handles versioning and GitHub release
-      - run: npx semantic-release
+      # 6️⃣ Release
+      - name: Run semantic-release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
